@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Trails Tours</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- css styles -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+  <div class="main">
+    <div id="bg"><!-- to reduce the brightness of bg color -->
+
+
+      <!-- nav bar -->
+      <nav class=" navbar fixed-top navbar-expand-lg bg-light">
+        <!-- fixed-top will help Content div(sfter view port height) going over fixed navbar -->
+        <div class="container-fluid">
+          <!-- icon -->
+          <i class="fa-solid fa-location-dot fa-2xl" style="color: #769f1d;"></i>
+          <!-- title -->
+          <h2 class="p-2 fs-2">Happy Trails Tours</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class=" navbar-nav ms-auto py-2"><!-- .ms-auto as spacers: -->
+              <li class="nav-item ">
+                <a class="nav-link  text-dark" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-dark " href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Packages</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Destination</a></li>
+                  <li><a class="dropdown-item" href="#">Booking </a></li>
+
+                  <li><a class="dropdown-item" href="#">Travel Guide</a></li>
+                  <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Contact</a>
+              </li>
+            </ul>
+
+            <button class="btn btn-outline-success text-light px-5 rounded-5" type="submit">Register</button>
+
+          </div>
+        </div>
+      </nav>
+      <div id="title">
+        <h1 class="text-light first-title mt-4">Enjoy Your Vacation With Us</h1>
+        <p class="text-light fs-3 ms-4 mt-4">We Do Tours and Travels Book Domestic and International Holiday Packages
+        </p>
+        <div class="input-group mb-3 mt-5 w-75 md-ms-0 ms-5">
+          <input type="text" class="form-control" placeholder="Ex: Thailand" aria-label="Ex: Thailand"
+            aria-describedby="basic-addon2">
+          <button class="btn text-light px-5" type="button" id="button-addon2">Search</button>
+          <!-- <button class="input-group-text " >Search</button> -->
+          <!-- <span class="input-group-text" id="basic-addon2"> <button></button></span> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about us -->
+  <section id="about">
+    <div class="container-fluid mt-5  d-flex justify-content-center align-items-center">
+      <div class="row">
+        <!-- first column -->
+        <div class="col-md-6">
+          <img
+            src="https://startours.co.uk/Content/Images/Slides/dreamstime_xl_59558966_710x550.jpg#117;RomanticImage;710;550"
+            alt="" class="w-100">
+        </div>
+        <!-- second column -->
+        <div class="px-5 mt-3 col-md-6">
+          <h3 class="text-center">About Us</h3>
+
+          <h1 class="text-center">Welcome to <span>Tourist</span></h1>
+          <p class="mt-3">We believe that touring should be fun and that our guests should be well-versed in the history
+            and aspects of culture, whilst they explore the world. Our tours are designed for travellers to enjoy a
+            diverse array of fascinating countries.</p>
+          <p class="mt-3">Book with confidence. All package and Flight-Plus holidays we sell are covered by a scheme
+            protecting your money if the supplier fails.</p>
+          <div class="md-mt-5">
+            <div class="d-md-flex align-items-center justify-content-between">
+
+              <div>
+                <i class="fa-solid fa-arrow-right fa-lg pe-2" style="color: #86b817;"></i>
+                <span class="fs-5">First Class Flights</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-arrow-right fa-lg pe-2" style="color: #86b817;">
+
+                </i>
+                <span class="fs-5">Handpicked Hotels</span>
+              </div>
+            </div>
+            <div class="d-md-flex align-items-center justify-content-between">
+
+              <div>
+
+                <i class="fa-solid fa-arrow-right fa-lg pe-2" style="color: #86b817;"></i>
+                <span class="fs-5">5 Star Accommodations</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-arrow-right fa-lg pe-2" style="color: #86b817;"></i>
+                <span class="fs-5">Latest Model Vehicles</span>
+              </div>
+
+            </div>
+            <div class="d-md-flex align-items-center justify-content-between">
+              <div>
+
+                <i class="fa-solid fa-arrow-right fa-lg pe-2" style="color: #86b817;"></i>
+                <span class="fs-5">150 Premium City Tours</span>
+
+              </div>
+              <div>
+
+
+                <i class="fa-solid fa-arrow-right fa-lg pe-2" style="color: #86b817;"></i>
+                <span class="fs-5">24/7 Service</span>
+              </div>
+
+            </div>
+
+          </div>
+          <div class=" mt-md-5 mt-3  mb-5">
+            <button class="btn btn-lg text-light px-5">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- service -->
+  <section id="service">
+    <div class="container-fluid d-flex align-items-center justify-content-center flex-column mt-md-5 mt-2  ">
+      <div class="row">
+        <div class="col-12">
+          <!-- heading1 -->
+          <h4 class="text-center">Services</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h1>
+            <div class="row">
+              <!-- heading1 -->
+              <div class="col-12 mb-4 text-center">Our Services</div>
+            </div>
+          </h1>
+        </div>
+      </div>
+      <!-- card -->
+      <div class="row">
+        <div class=" col-lg-3 col-md-6 mt-2 d-flex align-items-md-stretch align-items-center justify-content-center">
+          <div class="card border-0 shadow " style="width: 18rem;">
+            <div class="card-body">
+              <i class="fa-solid fa-globe card-img-top fa-2x" style="color: #86b622;"></i>
+              <h5 class="card-title">WorldWide Tours</h5>
+              <p class="card-text"> Make custom luggage tags for you and the family that highlight exactly how much
+                you’re ready to hop on a plane</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-2 d-flex align-items-md-stretch align-items-center justify-content-center">
+          <div class="card border-0 shadow " style="width: 18rem;">
+
+            <div class="card-body">
+              <i class="fa-solid fa-person card-img-top fa-2x" style="color: #84b822;"></i>
+              <h5 class="card-title">Travel Guides</h5>
+              <p class="card-text">A guide that is well-crafted can aid travelers in organizing their schedules,
+                maximizing their time, and steering clear of typical mishaps.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-2 d-flex align-items-md-stretch align-items-center justify-content-center">
+          <div class="card border-0 shadow " style="width: 18rem;">
+
+            <div class="card-body">
+              <i class="fa-solid fa-calendar-days fa-2x card-img-top" style="color: #84b822;"></i>
+              <h5 class="card-title">Event Management</h5>
+              <p class="card-text">Make custom packages for you and the family that highlight exactly how much
+                you’re ready</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-2 d-flex align-items-md-stretch align-items-center justify-content-center">
+          <div class="card border-0 shadow " style="width: 18rem;">
+
+            <div class="card-body ">
+              <i class="fa-solid fa-hotel fa-2x card-img-top" style="color: #84b822;"></i>
+              <h5 class="card-title">Hotel Reservation</h5>
+              <p class="card-text">A guide that is well-crafted can aid travelers in organizing their schedules,
+                maximizing their time, and steering clear of typical mishaps.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second row -->
+      <div class="row mt-md-3">
+        <div class="col-lg-3 col-md-6 mt-2 d-flex align-items-md-stretch align-items-center justify-content-center">
+          <div class="card border-0 shadow " style="width: 18rem;">
+            <div class="card-body">
+              <i class="fa-solid fa-globe card-img-top fa-2x" style="color: #86b622;"></i>
+              <h5 class="card-title">WorldWide Tours</h5>
+              <p class="card-text"> Make custom luggage tags for you and the family that highlight exactly how much
+                you’re ready to hop on a plane</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-2 d-flex align-items-md-stretch align-items-center justify-content-center">
+          <div class="card border-0 shadow " style="width: 18rem;">
+
+            <div class="card-body">
+              <i class="fa-solid fa-person card-img-top fa-2x" style="color: #84b822;"></i>
+              <h5 class="card-title">Travel Guides</h5>
+              <p class="card-text">A guide that is well-crafted can aid travelers in organizing their schedules,
+                maximizing their time, and steering clear of typical mishaps.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-2 d-flex align-items-md-stretch align-items-center justify-content-center">
+          <div class="card border-0 shadow " style="width: 18rem;">
+
+            <div class="card-body">
+              <i class="fa-solid fa-calendar-days fa-2x card-img-top" style="color: #84b822;"></i>
+              <h5 class="card-title">Event Management</h5>
+              <p class="card-text">Make custom packages for you and the family that highlight exactly how much
+                you’re ready</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6  mt-2 d-flex align-items-md-stretch align-items-center justify-content-center">
+          <div class="card border-0 shadow " style="width: 18rem;">
+
+            <div class="card-body ">
+              <i class="fa-solid fa-hotel fa-2x card-img-top" style="color: #84b822;"></i>
+              <h5 class="card-title">Hotel Reservation</h5>
+              <p class="card-text">A guide that is well-crafted can aid travelers in organizing their schedules,
+                maximizing their time, and steering clear of typical mishaps.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- destination -->
+  <section id="desitination-side">
+    <div class="container-fluid d-flex align-items-center justify-content-center flex-column mt-5">
+      <!-- first row -->
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Destination</h4>
+        </div>
+      </div>
+      <!-- second row -->
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <h1>Popular Destination</h1>
+        </div>
+      </div>
+      <!-- third row for images -->
+      <div class="row px-5">
+        <div class="col-md-8 mt-3 ">
+          <div class="row">
+            <div class="col-md-12 mt-3 position-relative image_animation overflow-hidden">
+
+              <img src="./media/img/destination-1.jpg" alt="" class="w-100 h-100">
+              <div class="position-absolute bg-light top-0 start-0 my-3 mx-4 ">
+                <h3 class="text-danger ">30% OFF</h3>
+              </div>
+              <div class="position-absolute bg-light percentage bottom-0 end-0 my-4 p-1 mx-4 text-center ">
+                <h5 class="desitantion">Thailand</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mt-3 position-relative image_animation overflow-hidden ">
+                <img src="./media/img/destination-3.jpg" alt="" class="w-100 h-100">
+                <div class="position-absolute bg-light top-0 start-0 my-3 mx-4 ">
+                  <h3 class=" text-danger">40% OFF</h3>
+                </div>
+                <div class="position-absolute bg-light percentage bottom-0 end-0 my-3 p-1 mx-4 text-center">
+                  <h5 class="desitantion ">Malaysia</h5>
+                </div>
+              </div>
+              <div class="col-md-6 mt-3 position-relative image_animation overflow-hidden">
+                <img src="./media/img/destination-4.jpg" alt="" class="w-100 h-100 ">
+                <div class="position-absolute bg-light  top-0 start-0 my-3 mx-4 ">
+                  <h3 class="text-danger ">10% OFF</h3>
+                </div>
+                <div class="position-absolute bg-light percentage bottom-0 end-0 my-3 mx-4 text-center">
+                  <h5 class="desitantion ">Indonesia</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3 position-relative image_animation overflow-hidden">
+          <img
+            src="https://www.onthegotours.com/repository/Halong-Bay--New-Highlight--On-the-Go-Tours-289861458210689.jpg"
+            alt="" class="w-100 h-100">
+          <div class="position-absolute bg-light  top-0 start-0 my-3 mx-4">
+            <h3 class="text-danger ">20% OFF</h3>
+          </div>
+          <div class="position-absolute bg-light percentage bottom-0 end-0 my-3 mx-4 text-center ">
+            <h5 class="desitantion">Australia</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+  <!-- packages -->
+  <section id="packages">
+
+
+
+    <div class="container-fluid  mt-5 d-md-flex align-items-center justify-content-center flex-column ">
+      <div class="row">
+        <div class="col-md-12 ">
+          <h4 class="text-center">Packages</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <h1 class="text-center">Awesome Packages</h1>
+        </div>
+      </div>
+      <!-- card -->
+      <div class="row mt-6 " style="width: 90%;">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card border-0 shadow overflow-hidden" style="width: 21rem;">
+            <img src="./media/img/package-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <table class="table table-bordered table-hover "
+                style="width: 21rem;margin-top: -17px; margin-left: -15px;">
+                <thead>
+                  <tr>
+                    <th scope="col ">
+                      <div class="flex-fill ">
+                        <i class="fa-solid fa-location-dot" style="color: #84b822;"></i>
+                        <h6>Thailand</h6>
+                      </div>
+                    </th>
+                    <th scope="col"> <i class="fa-solid fa-hotel card-img-top" style="color: #84b822;"></i>
+                      <h6>3 days</h6>
+                    </th>
+                    <th scope="col"><i class="fa-solid fa-person card-img-top " style="color: #84b822;"></i>
+                      <h6>2 person</h6>
+                    </th>
+
+                  </tr>
+                </thead>
+
+
+              </table>
+              <!-- <div class="text-dark border-bottom d-flex mb-4 mt-0">
+                <div class=" shadow  flex-fill ">
+                  <i class="fa-solid fa-location-dot" style="color: #84b822;"></i>
+                  <h6>Thailand</h6>
+                </div>
+                <div class=" shadow  flex-fill  ">
+                  <i class="fa-solid fa-hotel card-img-top" style="color: #84b822;"></i>
+                  <h6>3 days</h6>
+                </div>
+                <div class=" shadow  flex-fill ">
+                  <i class="fa-solid fa-person card-img-top " style="color: #84b822;"></i>
+                  <h6>2 person</h6>
+                </div>
+
+              </div> -->
+
+              <h5 class="card-title text-center ">$149.00</h5>
+              <div class="card-subtitle text-center ">
+
+
+                <i class="fa-solid fa-star " style="color: #84b820;"></i><i class="fa-solid fa-star"
+                  style="color: #84b820;"></i><i class="fa-solid fa-star" style="color: #84b820;"></i><i
+                  class="fa-solid fa-star" style="color: #84b820;"></i><i class="fa-solid fa-star"
+                  style="color: #84b820;"></i>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn rounded-5  ">Readmore</a>
+              <a href="#" class="btn rounded-5 ">Book now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-0 shadow overflow-hidden" style="width: 21rem;">
+            <img src="./media/img/package-2.jpg" class="card-img-top" alt="...">
+
+            <div class="card-body">
+              <table class="table table-bordered table-hover "
+                style="width: 21rem;margin-top: -17px; margin-left: -15px;">
+                <thead>
+                  <tr>
+                    <th scope="col ">
+                      <i class="fa-solid fa-location-dot" style="color: #84b822;"></i>
+                      <h6>Indonesia</h6>
+                    </th>
+                    <th scope="col">
+                      <i class="fa-solid fa-hotel card-img-top" style="color: #84b822;"></i>
+                      <h6>3 days</h6>
+                    </th>
+                    <th scope="col"> <i class="fa-solid fa-person card-img-top " style="color: #84b822;"></i>
+                      <h6>2 person</h6>
+
+                  </tr>
+                </thead>
+
+
+              </table>
+              <!-- <div class="text-dark border-bottom d-flex mb-4 mt-0">
+                <div class=" shadow  flex-fill ">
+                  <i class="fa-solid fa-location-dot" style="color: #84b822;"></i>
+                  <h6>Indonesia</h6>
+                </div>
+                <div class=" shadow  flex-fill  ">
+                  <i class="fa-solid fa-hotel card-img-top" style="color: #84b822;"></i>
+                  <h6>3 days</h6>
+                </div>
+                <div class=" shadow  flex-fill ">
+                  <i class="fa-solid fa-person card-img-top " style="color: #84b822;"></i>
+                  <h6>2 person</h6>
+                </div>
+
+              </div> -->
+              <h5 class="card-title text-center ">$139.00</h5>
+              <div class="card-subtitle text-center">
+                <i class="fa-solid fa-star" style="color: #84b820;"></i><i class="fa-solid fa-star"
+                  style="color: #84b820;"></i><i class="fa-solid fa-star" style="color: #84b820;"></i><i
+                  class="fa-solid fa-star" style="color: #84b820;"></i><i class="fa-solid fa-star"
+                  style="color: #84b820;"></i>
+              </div>
+
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn rounded-5">Readmore</a>
+              <a href="#" class="btn rounded-5 ">Book now</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-lg-4 col-md-6 ">
+          <div class="card border-0 shadow overflow-hidden" style="width: 21rem;">
+
+            <img src="./media/img/package-3.jpg" class="card-img-top" alt="...">
+
+
+
+            <div class="card-body">
+              <table class="table table-bordered table-hover "
+                style="width: 21rem;margin-top: -17px; margin-left: -15px;">
+                <thead>
+                  <tr>
+                    <th scope="col ">
+                      <i class="fa-solid fa-location-dot" style="color: #84b822;"></i>
+                      <h6>malaysia</h6>
+                    </th>
+                    <th scope="col">
+                      <i class="fa-solid fa-hotel card-img-top" style="color: #84b822;"></i>
+                      <h6>3 days</h6>
+                    </th>
+                    <th scope="col"> <i class="fa-solid fa-person card-img-top " style="color: #84b822;"></i>
+                      <h6>2 person</h6>
+
+                  </tr>
+                </thead>
+
+
+              </table>
+              <!-- <div class="text-dark border-bottom d-flex mb-4 mt-0"> -->
+              <!-- <div class=" shadow  flex-fill ">
+                  <i class="fa-solid fa-location-dot" style="color: #84b822;"></i>
+                  <h6>malaysia</h6>
+                </div>
+                <div class=" shadow  flex-fill  ">
+                  <i class="fa-solid fa-hotel card-img-top" style="color: #84b822;"></i>
+                  <h6>3 days</h6>
+                </div>
+                <div class=" shadow  flex-fill ">
+                  <i class="fa-solid fa-person card-img-top " style="color: #84b822;"></i>
+                  <h6>2 person</h6>
+                </div>
+
+              </div> -->
+
+              <h5 class="card-title text-center">$189.00</h5>
+
+              <div class="card-subtitle text-center">
+                <i class="fa-solid fa-star" style="color: #84b820;"></i><i class="fa-solid fa-star"
+                  style="color: #84b820;"></i><i class="fa-solid fa-star" style="color: #84b820;"></i><i
+                  class="fa-solid fa-star" style="color: #84b820;"></i><i class="fa-solid fa-star"
+                  style="color: #84b820;"></i>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn rounded-5 ">Readmore</a>
+              <a href="#" class="btn rounded-5 ">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="packages-bg mt-5">
+        <div class="row bg-transparent  w-100 ">
+
+
+          <div class="col-md-5 ">
+
+
+            <div class="text-light  mt-5 ms-5 py-5">
+              <h5>Booking</h5>
+              <h1>Online Booking</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit odit unde commodi enim, expedita nobis
+                saepe maxime, obcaecati illum molestiae soluta facilis, incidunt eaque veritatis quam voluptas
+                laudantium
+                fugit minima?</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit odit unde commodi enim, expedita nobis
+                saepe maxime, obcaecati illum molestiae soluta facilis, incidunt eaque veritatis quam voluptas
+                laudantium
+                fugit minima?</p>
+              <button class="px-5 btn border border-light-subtle text-light">Read More</button>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="text-light  mt-md-5 ms-5 py-5">
+              <h1 class="text-center">Book A Tour</h1>
+              <div>
+
+                <input class="px-2 py-2 btn border border-light-subtle  input_hover  " type="text"
+                  placeholder="Your Name" style="width: 46%;">
+                <input class="px-2 py-2 btn border border-light-subtle  input_hover " type="email"
+                  placeholder="Your Email" style="width: 46%;">
+              </div>
+              <div>
+                <input class="px-2 mt-2 py-2 btn border border-light-subtle input_hover  text-light" type="datetime"
+                  placeholder="Date & time" style="width: 46%;">
+                <input class="px-2 mt-2 py-2 btn border border-light-subtle  input_hover   text-light" type="text"
+                  placeholder="Destination" style="width: 46%;">
+              </div>
+              <textarea class="mt-2 py-2 btn border border-light-subtle  input_hover  text-light" name="" id=""
+                style="width: 92%;" placeholder="Special Request"></textarea>
+              <div class=" d-flex align-items-center justify-content-center">
+                <button class="px-5 btn border border-light-subtle w-75 input_hover  text-light mt-3 ">Book Now</button>
+              </div>
+
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- process -->
+  <section id="process">
+    <div class="container-fluid mt-5 d-flex align-items-center justify-content-center flex-column w-full ">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="text-center">Process</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <h1 class="text-center">3 Easy Steps</h1>
+        </div>
+      </div>
+      <div class="row mt-3 row-cols-sm-1 g-5">
+
+        <div class="col-lg-4 col-md-6 ">
+          <div class="card position-relative  " style="width: 23rem; height: 100%;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+              <h5 class="card-title text-center mt-5 fs-2">Choose A Destination</h5>
+              <p class="card-text">We believe that touring should be fun and that our guests should be well-versed in
+                the history and aspects of culture, whilst they explore the world. Our tours are designed for travellers
+                to enjoy a diverse array of fascinating countries.</p>
+
+            </div>
+
+            <div class="position-absolute top-0 start-50 translate-middle rounded-circle bg-icon  px-4 py-4">
+
+
+              <i class="fa-solid fa-globe card-img-top fa-2x " style=" color: white" ;></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card position-relative " style="width: 23rem; height: 100%;">
+            <div class="card-body">
+              <h5 class="card-title text-center mt-5 fs-2 ">Pay Online</h5>
+
+              <p class="card-text">Book with confidence. All package and Flight-Plus holidays we sell are covered by a
+                scheme protecting your money if the supplier fails..</p>
+
+            </div>
+
+            <div class="position-absolute top-0 start-50 translate-middle rounded-circle bg-icon  px-4 py-4 ">
+
+              <i class="fa-solid fa-dollar-sign fa-2x " style=" color: white" ;></i>
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="card position-relative " style="width: 23rem; height: 100%;">
+            <div class="card-body">
+              <h5 class="card-title text-center mt-5 fs-2">Fly Today</h5>
+
+              <p class="card-text">Fly today in comfort and style. Exclusive business and first-class deals available
+                now.We’ve got you covered! Find last-minute flights to your destination in just a few clicks.</p>
+
+            </div>
+            <div class="  position-absolute top-0 start-50 translate-middle rounded-circle bg-icon  px-4 py-4 ">
+
+              <i class="fa-solid fa-plane fa-2x" style="color: #f2f2f2;"></i>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- travel guide -->
+  <section id="travel">
+    <div class="container-fluid mt-5 d-flex align-items-center justify-content-center flex-column w-full ">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="text-center">Travel Guide</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <h1 class="text-center">Meet Our Guide</h1>
+        </div>
+      </div>
+      <div class="row mt-5 row-cols-sm-1 g-4 m-sm-5 m-0">
+        <div class="col-lg-3 col-md-6">
+          <div class="card" style="width: 18rem;">
+
+            <img src="./media/img/team-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="top-50 start-50 translate-middle card-img-overlay mt-5 ">
+
+                <div class="card-icon d-flex">
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;">
+                    <i class="fa-brands fa-facebook icon " style="color: #84b822;"></i>
+                  </div>
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;"> <i class="fa-brands fa-x-twitter  icon"
+                      style="color: #84b822;"></i></div>
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;">
+                    <i class="fa-brands fa-instagram icon" style="color: #84b822;"></i>
+                  </div>
+                </div>
+
+
+              </div>
+              <h5 class="card-title text-center fw-bold">Steven</h5>
+              <p class="card-text text-center">Senior Travel Agent</p>
+              <a href="#" class="btn ">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./media/img/team-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="top-50 start-50 translate-middle card-img-overlay mt-5 ">
+
+                <div class="card-icon d-flex">
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;">
+                    <i class="fa-brands fa-facebook icon " style="color: #84b822;"></i>
+                  </div>
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;"> <i class="fa-brands fa-x-twitter  icon"
+                      style="color: #84b822;"></i></div>
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;">
+                    <i class="fa-brands fa-instagram icon" style="color: #84b822;"></i>
+                  </div>
+                </div>
+
+              </div>
+              <h5 class="card-title text-center fw-bold">Ana</h5>
+              <p class="card-text text-center">Destination Specialist.</p>
+              <a href="#" class="btn ">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./media/img/team-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="top-50 start-50 translate-middle card-img-overlay mt-5 ">
+
+                <div class="card-icon d-flex">
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;">
+                    <i class="fa-brands fa-facebook icon " style="color: #84b822;"></i>
+                  </div>
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;"> <i class="fa-brands fa-x-twitter  icon"
+                      style="color: #84b822;"></i></div>
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;">
+                    <i class="fa-brands fa-instagram icon" style="color: #84b822;"></i>
+                  </div>
+                </div>
+
+              </div>
+              <h5 class="card-title text-center fw-bold">shepherd</h5>
+              <p class="card-text text-center">Luxury Travel Advisor</p>
+              <a href="#" class="btn rounded-3">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./media/img/team-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="top-50 start-50 translate-middle card-img-overlay mt-5 ">
+
+                <div class="card-icon d-flex">
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;">
+                    <i class="fa-brands fa-facebook icon " style="color: #84b822;"></i>
+                  </div>
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;"> <i class="fa-brands fa-x-twitter  icon"
+                      style="color: #84b822;"></i></div>
+                  <div class="rounded-circle btn btn-light-subtle bg-light btn-social "
+                    style="width: 40px; height: 40px;">
+                    <i class="fa-brands fa-instagram icon" style="color: #84b822;"></i>
+                  </div>
+                </div>
+
+
+              </div>
+              <h5 class="card-title text-center fw-bold">Meredith</h5>
+              <p class="card-text text-center">Corporate Travel Agent</p>
+              <a href="#" class="btn ">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonials -->
+  <section id="testimonials ">
+    <div class="container-fluid mt-5 mb-5 d-flex align-items-center justify-content-center flex-column w-full ">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="text-center">Testimonial</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <h1 class="text-center">Get inspiration for your next trip!!!</h1>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-12 ">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000 ">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active "
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+                <div class="card-group">
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img
+                      src="https://media.istockphoto.com/id/1368808461/photo/young-woman-feeding-fish-on-tropical-beach.jpg?s=612x612&w=0&k=20&c=qIdzSEI3BQvGliysV65R5NzHGuhX_4Mq_PU7nBhhsBQ="
+                      class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Ria</h5>
+                      <p class="card-text">We had an unforgettable honeymoon in the Himachal, and it was all thanks to
+                        Travel on ease! From start to finish, they handled every aspect of our trip flawlessly, ensuring
+                        a smooth and stress-free experience.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 5 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="https://t4.ftcdn.net/jpg/03/08/38/83/360_F_308388341_kzxK7d31ZYO7FmBClxJmYuZZb6dn6a3g.jpg"
+                      class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">johne</h5>
+                      <p class="card-text">Their team explained everything clearly and assisted us in managing all the
+                        details of our journey. The highlight of our trip was undoubtedly our stay—it exceeded all
+                        expectations! Every aspect was thoughtfully arranged, making our honeymoon extra special. A huge
+                        thank you to the team for their outstanding service! We highly recommend PickYourTrail to anyone
+                        planning a getaway. We’re excited to book with them again in the future!.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 50 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="https://www.kstdc.co/wp-content/themes/kstdc/images/inbg.jpg"
+                      class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">sia</h5>
+                      <p class="card-text">Their team explained everything clearly and assisted us in managing all the
+                        details of our journey. The highlight of our trip was undoubtedly our stay—it exceeded all
+                        expectations! Every aspect was thoughtfully arranged, making our honeymoon extra special. A huge
+                        thank you to the team for their outstanding service! We highly recommend PickYourTrail to anyone
+                        planning a getaway. We’re excited to book with them again in the future!.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 50 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img
+                      src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?cs=srgb&dl=pexels-te-lensfix-380994-1371360.jpg&fm=jpg"
+                      class=" lg-img_profile lg-ms-5 mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Sheepe</h5>
+                      <p class="card-text">Their team explained everything clearly and assisted us in managing all the
+                        details of our journey. The highlight of our trip was undoubtedly our stay—it exceeded all
+                        expectations! Every aspect was thoughtfully arranged, making our honeymoon extra special. A huge
+                        thank you to the team for their outstanding service! We highly recommend PickYourTrail to anyone
+                        planning a getaway. We’re excited to book with them again in the future!.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 50 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="carousel-item">
+                <div class="card-group">
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="./media/img/package-1.jpg" class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Ria</h5>
+                      <p class="card-text">We had an unforgettable honeymoon in the Himachal, and it was all thanks to
+                        Travel on ease! From start to finish, they handled every aspect of our trip flawlessly, ensuring
+                        a smooth and stress-free experience.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 5 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="./media/img/destination-2.jpg" class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">johne</h5>
+                      <p class="card-text">Their team explained everything clearly and assisted us in managing all the
+                        details of our journey. The highlight of our trip was undoubtedly our stay—it exceeded all
+                        expectations! Every aspect was thoughtfully arranged, making our honeymoon extra special. A huge
+                        thank you to the team for their outstanding service! We highly recommend PickYourTrail to anyone
+                        planning a getaway. We’re excited to book with them again in the future!.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 50 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="./media/img/destination-3.jpg" class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">sia</h5>
+                      <p class="card-text">Their team explained everything clearly and assisted us in managing all the
+                        details of our journey. The highlight of our trip was undoubtedly our stay—it exceeded all
+                        expectations! Every aspect was thoughtfully arranged, making our honeymoon extra special. A huge
+                        thank you to the team for their outstanding service! We highly recommend PickYourTrail to anyone
+                        planning a getaway. We’re excited to book with them again in the future!.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 50 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="./media/img/destination-4.jpg" class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Sheepe</h5>
+                      <p class="card-text">Their team explained everything clearly and assisted us in managing all the
+                        details of our journey. The highlight of our trip was undoubtedly our stay—it exceeded all
+                        expectations! Every aspect was thoughtfully arranged, making our honeymoon extra special. A huge
+                        thank you to the team for their outstanding service! We highly recommend PickYourTrail to anyone
+                        planning a getaway. We’re excited to book with them again in the future!.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 50 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-group">
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="./media/img/testimonial-1.jpg" class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Ria</h5>
+                      <p class="card-text">We had an unforgettable honeymoon in the Himachal, and it was all thanks to
+                        Travel on ease! From start to finish, they handled every aspect of our trip flawlessly, ensuring
+                        a smooth and stress-free experience.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 5 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="./media/img/testimonial-2.jpg" class="lg-img_profile lg-ms-5 mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">johne</h5>
+                      <p class="card-text">Their team explained everything clearly and assisted us in managing all the
+                        details of our journey. The highlight of our trip was undoubtedly our stay—it exceeded all
+                        expectations! Every aspect was thoughtfully arranged, making our honeymoon extra special. A huge
+                        thank you to the team for their outstanding service! We highly recommend PickYourTrail to anyone
+                        planning a getaway. We’re excited to book with them again in the future!.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 50 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="./media/img/testimonial-3.jpg" class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">sia</h5>
+                      <p class="card-text">Their team explained everything clearly and assisted us in managing all the
+                        details of our journey. The highlight of our trip was undoubtedly our stay—it exceeded all
+                        expectations! Every aspect was thoughtfully arranged, making our honeymoon extra special. A huge
+                        thank you to the team for their outstanding service! We highly recommend PickYourTrail to anyone
+                        planning a getaway. We’re excited to book with them again in the future!.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 50 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card me-3 shadow border" style="width: 18rem;">
+                    <img src="./media/img/testimonial-4.jpg" class="lg-img_profile lg-ms-5  mt-3 " alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Sheepe</h5>
+                      <p class="card-text">Their team explained everything clearly and assisted us in managing all the
+                        details of our journey. The highlight of our trip was undoubtedly our stay—it exceeded all
+                        expectations! Every aspect was thoughtfully arranged, making our honeymoon extra special. A huge
+                        thank you to the team for their outstanding service! We highly recommend PickYourTrail to anyone
+                        planning a getaway. We’re excited to book with them again in the future!.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 50 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark rounded-circle " aria-hidden="true"></span>
+
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark  rounded-circle" aria-hidden="true"></span>
+
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer id="footer mt-5 mb-5 " style="background-color: rgb(3, 3, 31);">
+    <div class="container-fluid py-5">
+      <div class="row">
+     
+        <div class="col-lg-3 col-md-6">
+          <h3 class="text-light mt-5 mb-4">Company</h3>
+          <ul class="text-light">
+
+            <li>about us</li>
+            <li>Contact us</li>
+            <li>Privacy policy</li>
+            <li>Terms & conditions</li>
+            <li>FAQs & Help</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 text-light">
+          <h3 class=" mt-5 mb-4">Contact</h3>
+
+
+
+          <p><i class="fa-solid fa-location-dot"></i>
+            123 Street, New York, USA</p>
+          <p><i class="fa-solid fa-phone"></i>
+            +012 345 67890</p>
+          <p><i class="fa-solid fa-envelope"></i>
+            info@example.com</p>
+          <div class="d-flex">
+            <div class="rounded-circle btn btn-light-subtle btn-social "><i class="fa-brands fa-facebook"
+                style="color: #f2f2f2;"></i>
+            </div>
+            <div class="rounded-circle btn btn-light-subtle btn-social ">
+              <i class="fa-brands fa-youtube" style="color: #f2f2f2;"></i>
+            </div>
+            <div class="rounded-circle btn btn-light-subtle btn-social ">
+              <i class="fa-brands fa-instagram" style="color: #f2f2f2;"></i>
+            </div>
+            <div class="rounded-circle btn btn-light-subtle btn-social ">
+              <i class="fa-brands fa-x-twitter" style="color: #f2f2f2;"></i>
+            </div>
+          </div>
+        </div>
+       
+
+        <div class="col-lg-3 col-md-6 text-light ">
+          <h3 class=" mt-5 mb-4">Gallery</h3>
+          <div class="row">
+            <div class="col-lg-12 col-md-6">
+              <img src="./media/img/package-1.jpg" alt="" width="80px" class="border border-3 border-light-subtle">
+              <img src="./media/img/destination-2.jpg" alt="" width="80px" class="border border-3 border-light-subtle">
+              <img src="./media/img/destination-3.jpg" alt="" width="80px" class="border border-3 border-light-subtle">
+            </div>
+            <div class="row mt-4">
+              <div class="col-lg-12 col-md-6 w-full">
+                <img src="./media/img/package-1.jpg" alt="" width="80px" class="border border-3 border-light-subtle">
+                <img src="./media/img/destination-2.jpg" alt="" width="80px"
+                  class="border border-3 border-light-subtle">
+                <img src="./media/img/destination-3.jpg" alt="" width="80px"
+                  class="border border-3 border-light-subtle">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 text-light">
+          <h3 class=" mt-5 mb-4">Newsletter</h3>
+          <p class="mt-3">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Your email" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2"><button class="btn btn-style">SignUp</button></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-light text-center mt-3 me-5">
+      <hr class="w-100 border-light">
+      <div class="d-md-flex  justify-content-between align-items-center">
+        <h6 class="mb-0">© Your Site Name, All Rights Reserved. Designed By HTML Codex</h6>
+
+        <div class="d-md-flex  gap-3">
+          <a href="#" class="text-light text-decoration-none">Home</a>
+          <a href="#" class="text-light text-decoration-none">Cookies</a>
+          <a href="#" class="text-light text-decoration-none">Help</a>
+          <a href="#" class="text-light text-decoration-none">FAQs</a>
+          <div id="up-arrow position-fixed btn border-light-subtle rounded-circle bg-light">
+            <a href=""><i class="fa-solid fa-arrow-up" style="color:greenyellow"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </footer>
+
+</body>
+
+</html>
